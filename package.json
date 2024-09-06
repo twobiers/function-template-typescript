@@ -1,0 +1,37 @@
+{
+<<<<<<< HEAD
+  "name": "function-sdk-typescript",
+  "version": "0.0.2",
+=======
+  "name": "function-template-typescript",
+  "version": "0.0.1",
+>>>>>>> 8283edd (Initial commit)
+  "license": "Apache-2.0",
+  "description": "Crossplane Function Template to build composition functions in TypeScript",
+  "homepage": "https://github.com/twobiers/function-template-typescript",
+  "author": "twobiers",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "generate": "buf generate",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@kubernetes/client-node": "^0.21.0",
+    "function-sdk-typescript": "file:../function-sdk-typescript",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.33",
+    "typescript": "^5.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twobiers/function-template-typescript.git"
+  },
+  "keywords": [
+    "crossplane",
+    "function",
+    "sdk"
+  ]
+}
